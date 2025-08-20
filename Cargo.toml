@@ -2,6 +2,9 @@
 name = "anycoder"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+repository = "https://github.com/boazy/anycoder"
+description = "A fast, lightweight command-line utility for encoding and decoding data between different formats."
 
 [dependencies]
 clap = { version = "4.5.17", features = ["derive"] }
