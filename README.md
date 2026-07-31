@@ -16,7 +16,7 @@ base64, base64url, and hexadecimal formats, making it perfect for shell pipeline
 ### From Source
 
 ```bash
-git clone https://github.com/boazyaniv/anycoder.git
+git clone https://github.com/boazy/anycoder.git
 cd anycoder
 cargo build --release
 ```

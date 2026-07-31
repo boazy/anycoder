@@ -1,6 +1,6 @@
 [package]
 name = "anycoder"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Boaz Yaniv"]
 license = "MIT"
@@ -18,3 +18,8 @@ color-eyre = "0.6.3"
 eyre = "0.6.12"
 base64 = "0.22.1"
 hex = "0.4.3"
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
